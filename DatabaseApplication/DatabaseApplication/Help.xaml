@@ -1,0 +1,12 @@
+﻿<Window x:Class="DatabaseApplication.Help"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Help" Height="300" Width="300">
+    <Grid>
+        <Button Content="OK" HorizontalAlignment="Left" Margin="97,225,0,0" VerticalAlignment="Top" Width="75" Click="OK_Click"/>
+        <TextBlock HorizontalAlignment="Left" Height="23" Margin="70,66,0,0" TextWrapping="Wrap" Text="Help About" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Height="23" Margin="70,94,0,0" TextWrapping="Wrap" Text="Program by: David Sestak" VerticalAlignment="Top" Width="180"/>
+        <TextBlock HorizontalAlignment="Left" Margin="70,122,0,0" TextWrapping="Wrap" Text="RSEG180 - 2015 " VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
